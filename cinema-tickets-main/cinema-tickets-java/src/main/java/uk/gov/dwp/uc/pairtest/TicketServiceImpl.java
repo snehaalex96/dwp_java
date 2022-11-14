@@ -76,11 +76,13 @@ public class TicketServiceImpl implements TicketService {
 		
 	}
 
-    public static void main(String args[]) {
-    	TicketServiceImpl ts= new TicketServiceImpl();
-    	 TicketTypeRequest tr1 = new TicketTypeRequest(TicketTypeRequest.Type.ADULT,21);
-    	 TicketTypeRequest tr2 = new TicketTypeRequest(TicketTypeRequest.Type.INFANT,0);
-    	 TicketTypeRequest tr3 = new TicketTypeRequest(TicketTypeRequest.Type.CHILD,21);
-    	 ts.purchaseTickets((long) 1,new TicketTypeRequest[] { tr1,tr2,tr3});
-    }
+    // Main function used  for code development
+
+//    public static void main(String args[]) {
+//    	TicketServiceImpl ts= new TicketServiceImpl();
+//    	 TicketTypeRequest tr1 = new TicketTypeRequest(TicketTypeRequest.Type.ADULT,21);
+//    	 TicketTypeRequest tr2 = new TicketTypeRequest(TicketTypeRequest.Type.INFANT,0);
+//    	 TicketTypeRequest tr3 = new TicketTypeRequest(TicketTypeRequest.Type.CHILD,21);
+//    	 ts.purchaseTickets((long) 1,new TicketTypeRequest[] { tr1,tr2,tr3});
+//    }
 }
